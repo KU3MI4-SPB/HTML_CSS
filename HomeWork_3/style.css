@@ -37,6 +37,7 @@
 
 body {
     scroll-behavior: smooth;
+	background: #fff;
 }
 
 img {
@@ -57,30 +58,62 @@ button {
 
 .header {
 }
+
+.logo-img {
+	justify-content: left;
+}
+
 .navigation {
+	display: flex;
+	justify-content: right;
+}
+.toplink {
+	font-family: "Gilroy-SemiBold", sans-serif;
+	color: #f25822;
 }
 .navlink {
+	font-family: "Gilroy-SemiBold", sans-serif;
+	color: black;
 }
 .main {
 }
 .main-content {
+	display: flex;
 }
 .content {
+	
 }
 .content-title {
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
+	font-weight: 400;
+	font-size: 60px;
+	color: #000;
 }
 .content-text {
+	font-family: 'Gilroy-Medium', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #888;
+
 }
 .content-btn-box {
 }
 .content-btn {
+	border-radius: 50px;
+	width: 140px;
+	height: 50px;
+	box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+	background: #f25822;
 }
 .content-btn-watch {
 }
 .content-img {
+	width: 610px;
+	height: 372px;
 }
 .footer {
 }
 .logos {
+	display: flex;
+    justify-content: space-between;
 }
