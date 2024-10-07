@@ -52,20 +52,23 @@ button {
 }
 
 .container {
-    max-width: 1319px;
+    max-width: 1316px;
     margin: 0 auto;
 }
 
 .header {
 }
 
+.menu-bar {
+}
+
 .logo-img {
-	justify-content: left;
+	height: 35px;
+	width: auto;
 }
 
 .navigation {
 	display: flex;
-	justify-content: right;
 }
 .toplink {
 	font-family: "Gilroy-SemiBold", sans-serif;
@@ -108,8 +111,8 @@ button {
 .content-btn-watch {
 }
 .content-img {
-	width: 610px;
-	height: 372px;
+	width: 611px;
+	height: 373px;
 }
 .footer {
 }
